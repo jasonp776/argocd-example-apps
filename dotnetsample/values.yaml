@@ -5,8 +5,8 @@
 replicaCount: 2
 
 image:
-  repository: 255780339045.dkr.ecr.ap-southeast-1.amazonaws.com/psbdemo:1.0
-  tag: 0.1
+  repository: 255780339045.dkr.ecr.ap-southeast-1.amazonaws.com/psbdemo
+  tag: 1.0
   pullPolicy: IfNotPresent
 
 service:
