@@ -28,14 +28,6 @@ spec:
             - name: http
               containerPort: 5001
               protocol: TCP
-          livenessProbe:
-            httpGet:
-              path: /
-              port: 5001
-          readinessProbe:
-            httpGet:
-              path: /
-              port: 5001
           resources:
 {{ toYaml .Values.resources | indent 12 }}
     {{- with .Values.nodeSelector }}
