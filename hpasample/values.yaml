@@ -1,7 +1,8 @@
 replicaCount: 1
 
 image:
-  repository: k8s.gcr.io/hpa-example
+  repository: us.gcr.io/k8s-artifacts-prod/hpa-example
+  tag: latest
   pullPolicy: IfNotPresent
 
 service:
